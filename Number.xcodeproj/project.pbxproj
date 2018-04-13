@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59B121812080EE220021EACA /* DiskDataExpert.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B121802080EE220021EACA /* DiskDataExpert.m */; };
 		DDC9023E206E258400A4CBE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9023D206E258400A4CBE4 /* AppDelegate.m */; };
-		DDC90241206E258400A4CBE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC90240206E258400A4CBE4 /* ViewController.m */; };
 		DDC90244206E258400A4CBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC90242206E258400A4CBE4 /* Main.storyboard */; };
 		DDC90246206E258400A4CBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC90245206E258400A4CBE4 /* Assets.xcassets */; };
 		DDC90249206E258400A4CBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC90247206E258400A4CBE4 /* LaunchScreen.storyboard */; };
 		DDC9024C206E258400A4CBE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9024B206E258400A4CBE4 /* main.m */; };
+		DDC90253206E262200A4CBE4 /* EntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC90252206E262200A4CBE4 /* EntryCell.xib */; };
+		DDC90256206E2FEE00A4CBE4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC90255206E2FEE00A4CBE4 /* TableViewController.m */; };
+		DDC90259206E37F800A4CBE4 /* EXEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC90258206E37F800A4CBE4 /* EXEntry.m */; };
+		DDC9025F206E3D3000A4CBE4 /* EXEntryDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9025E206E3D3000A4CBE4 /* EXEntryDAO.m */; };
+		DDC90262206E480600A4CBE4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC90261206E480600A4CBE4 /* TableViewCell.m */; };
+		DDC90265206EC64900A4CBE4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC90264206EC64900A4CBE4 /* DetailViewController.m */; };
+		DDF0FA08206F8C6E00EAAD08 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0FA06206F8C6E00EAAD08 /* EditViewController.m */; };
+		DDF0FA09206F8C6E00EAAD08 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF0FA07206F8C6E00EAAD08 /* EditViewController.xib */; };
+		DDF0FA0B206F8D9D00EAAD08 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF0FA0A206F8D9D00EAAD08 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59B1217F2080EE220021EACA /* DiskDataExpert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiskDataExpert.h; sourceTree = "<group>"; };
+		59B121802080EE220021EACA /* DiskDataExpert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiskDataExpert.m; sourceTree = "<group>"; };
 		DDC90239206E258400A4CBE4 /* Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Number.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC9023C206E258400A4CBE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDC9023D206E258400A4CBE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDC9023F206E258400A4CBE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDC90240206E258400A4CBE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DDC90243206E258400A4CBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC90245206E258400A4CBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC90248206E258400A4CBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC9024A206E258400A4CBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC9024B206E258400A4CBE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC90252206E262200A4CBE4 /* EntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryCell.xib; sourceTree = "<group>"; };
+		DDC90254206E2FEE00A4CBE4 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DDC90255206E2FEE00A4CBE4 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DDC90257206E37F800A4CBE4 /* EXEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXEntry.h; sourceTree = "<group>"; };
+		DDC90258206E37F800A4CBE4 /* EXEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXEntry.m; sourceTree = "<group>"; };
+		DDC9025D206E3D3000A4CBE4 /* EXEntryDAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXEntryDAO.h; sourceTree = "<group>"; };
+		DDC9025E206E3D3000A4CBE4 /* EXEntryDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXEntryDAO.m; sourceTree = "<group>"; };
+		DDC90260206E480600A4CBE4 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DDC90261206E480600A4CBE4 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DDC90263206EC64900A4CBE4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DDC90264206EC64900A4CBE4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DDF0FA05206F8C6E00EAAD08 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		DDF0FA06206F8C6E00EAAD08 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		DDF0FA07206F8C6E00EAAD08 /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		DDF0FA0A206F8D9D00EAAD08 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +82,10 @@
 		DDC9023B206E258400A4CBE4 /* Number */ = {
 			isa = PBXGroup;
 			children = (
+				DDF0F9FE206F8B9100EAAD08 /* Model */,
+				DDF0F9FD206F8A8100EAAD08 /* ViewControllers */,
 				DDC9023C206E258400A4CBE4 /* AppDelegate.h */,
 				DDC9023D206E258400A4CBE4 /* AppDelegate.m */,
-				DDC9023F206E258400A4CBE4 /* ViewController.h */,
-				DDC90240206E258400A4CBE4 /* ViewController.m */,
 				DDC90242206E258400A4CBE4 /* Main.storyboard */,
 				DDC90245206E258400A4CBE4 /* Assets.xcassets */,
 				DDC90247206E258400A4CBE4 /* LaunchScreen.storyboard */,
@@ -69,6 +93,69 @@
 				DDC9024B206E258400A4CBE4 /* main.m */,
 			);
 			path = Number;
+			sourceTree = "<group>";
+		};
+		DDF0F9FD206F8A8100EAAD08 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDF0FA04206F8C1100EAAD08 /* EditView */,
+				DDF0FA03206F8BF700EAAD08 /* Table */,
+				DDF0FA02206F8BF400EAAD08 /* DetailView */,
+				DDF0FA01206F8BF000EAAD08 /* TableCell */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DDF0F9FE206F8B9100EAAD08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDC90257206E37F800A4CBE4 /* EXEntry.h */,
+				DDC90258206E37F800A4CBE4 /* EXEntry.m */,
+				DDC9025D206E3D3000A4CBE4 /* EXEntryDAO.h */,
+				DDC9025E206E3D3000A4CBE4 /* EXEntryDAO.m */,
+				59B1217F2080EE220021EACA /* DiskDataExpert.h */,
+				59B121802080EE220021EACA /* DiskDataExpert.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDF0FA01206F8BF000EAAD08 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDC90260206E480600A4CBE4 /* TableViewCell.h */,
+				DDC90261206E480600A4CBE4 /* TableViewCell.m */,
+				DDC90252206E262200A4CBE4 /* EntryCell.xib */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		DDF0FA02206F8BF400EAAD08 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DDC90263206EC64900A4CBE4 /* DetailViewController.h */,
+				DDC90264206EC64900A4CBE4 /* DetailViewController.m */,
+				DDF0FA0A206F8D9D00EAAD08 /* DetailViewController.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		DDF0FA03206F8BF700EAAD08 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				DDC90254206E2FEE00A4CBE4 /* TableViewController.h */,
+				DDC90255206E2FEE00A4CBE4 /* TableViewController.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		DDF0FA04206F8C1100EAAD08 /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				DDF0FA05206F8C6E00EAAD08 /* EditViewController.h */,
+				DDF0FA06206F8C6E00EAAD08 /* EditViewController.m */,
+				DDF0FA07206F8C6E00EAAD08 /* EditViewController.xib */,
+			);
+			name = EditView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +184,7 @@
 		DDC90231206E258400A4CBE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = vladislavitsi;
 				TargetAttributes = {
 					DDC90238206E258400A4CBE4 = {
@@ -129,7 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC90253206E262200A4CBE4 /* EntryCell.xib in Resources */,
 				DDC90249206E258400A4CBE4 /* LaunchScreen.storyboard in Resources */,
+				DDF0FA09206F8C6E00EAAD08 /* EditViewController.xib in Resources */,
+				DDF0FA0B206F8D9D00EAAD08 /* DetailViewController.xib in Resources */,
 				DDC90246206E258400A4CBE4 /* Assets.xcassets in Resources */,
 				DDC90244206E258400A4CBE4 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC90241206E258400A4CBE4 /* ViewController.m in Sources */,
+				DDC90262206E480600A4CBE4 /* TableViewCell.m in Sources */,
+				DDC90259206E37F800A4CBE4 /* EXEntry.m in Sources */,
+				DDC90265206EC64900A4CBE4 /* DetailViewController.m in Sources */,
+				DDC9025F206E3D3000A4CBE4 /* EXEntryDAO.m in Sources */,
+				DDF0FA08206F8C6E00EAAD08 /* EditViewController.m in Sources */,
 				DDC9024C206E258400A4CBE4 /* main.m in Sources */,
+				59B121812080EE220021EACA /* DiskDataExpert.m in Sources */,
 				DDC9023E206E258400A4CBE4 /* AppDelegate.m in Sources */,
+				DDC90256206E2FEE00A4CBE4 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +280,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -191,6 +288,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -218,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -239,6 +337,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +345,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -267,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -279,9 +379,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7VR5AMBYN;
 				INFOPLIST_FILE = Number/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vladislavitsi.Number;
+				PRODUCT_BUNDLE_IDENTIFIER = by.vladislavitsi.Number;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,9 +394,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7VR5AMBYN;
 				INFOPLIST_FILE = Number/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vladislavitsi.Number;
+				PRODUCT_BUNDLE_IDENTIFIER = by.vladislavitsi.Number;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EXEntryDAO.h"
 
 @interface AppDelegate ()
 
