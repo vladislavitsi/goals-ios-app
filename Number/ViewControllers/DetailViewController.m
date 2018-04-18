@@ -50,7 +50,6 @@
     
 }
     
-    
 - (IBAction)addStep:(UIButton *)sender {
     self.entry.progress += self.entry.step;
     [self viewWillAppear:YES];

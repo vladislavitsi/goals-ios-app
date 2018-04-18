@@ -12,6 +12,7 @@
 @interface EXEntryDAO : NSObject
 
 @property (nonatomic, readonly) NSArray<EXEntry*> *entries;
+@property (nonatomic, readonly) NSArray<EXEntry *> *historyEntries;
 
 + (instancetype)shared;
 

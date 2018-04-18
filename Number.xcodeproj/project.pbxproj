@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59702678208613AB004771DC /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59702677208613AB004771DC /* HistoryTableViewController.m */; };
+		5970267D208714C4004771DC /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970267B208714C4004771DC /* HistoryTableViewCell.m */; };
+		5970267E208714C4004771DC /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5970267C208714C4004771DC /* HistoryTableViewCell.xib */; };
 		59B121812080EE220021EACA /* DiskDataExpert.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B121802080EE220021EACA /* DiskDataExpert.m */; };
 		DDC9023E206E258400A4CBE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9023D206E258400A4CBE4 /* AppDelegate.m */; };
 		DDC90244206E258400A4CBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC90242206E258400A4CBE4 /* Main.storyboard */; };
@@ -25,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59702676208613AB004771DC /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		59702677208613AB004771DC /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		5970267A208714C4004771DC /* HistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		5970267B208714C4004771DC /* HistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		5970267C208714C4004771DC /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		59B1217F2080EE220021EACA /* DiskDataExpert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiskDataExpert.h; sourceTree = "<group>"; };
 		59B121802080EE220021EACA /* DiskDataExpert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiskDataExpert.m; sourceTree = "<group>"; };
 		DDC90239206E258400A4CBE4 /* Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Number.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +71,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5970267520861389004771DC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				59702676208613AB004771DC /* HistoryTableViewController.h */,
+				59702677208613AB004771DC /* HistoryTableViewController.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		597026792087148A004771DC /* HistoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				5970267A208714C4004771DC /* HistoryTableViewCell.h */,
+				5970267B208714C4004771DC /* HistoryTableViewCell.m */,
+				5970267C208714C4004771DC /* HistoryTableViewCell.xib */,
+			);
+			name = HistoryCell;
+			sourceTree = "<group>";
+		};
 		DDC90230206E258400A4CBE4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +125,8 @@
 		DDF0F9FD206F8A8100EAAD08 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				597026792087148A004771DC /* HistoryCell */,
+				5970267520861389004771DC /* History */,
 				DDF0FA04206F8C1100EAAD08 /* EditView */,
 				DDF0FA03206F8BF700EAAD08 /* Table */,
 				DDF0FA02206F8BF400EAAD08 /* DetailView */,
@@ -221,6 +250,7 @@
 				DDF0FA09206F8C6E00EAAD08 /* EditViewController.xib in Resources */,
 				DDF0FA0B206F8D9D00EAAD08 /* DetailViewController.xib in Resources */,
 				DDC90246206E258400A4CBE4 /* Assets.xcassets in Resources */,
+				5970267E208714C4004771DC /* HistoryTableViewCell.xib in Resources */,
 				DDC90244206E258400A4CBE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +265,9 @@
 				DDC90262206E480600A4CBE4 /* TableViewCell.m in Sources */,
 				DDC90259206E37F800A4CBE4 /* EXEntry.m in Sources */,
 				DDC90265206EC64900A4CBE4 /* DetailViewController.m in Sources */,
+				5970267D208714C4004771DC /* HistoryTableViewCell.m in Sources */,
 				DDC9025F206E3D3000A4CBE4 /* EXEntryDAO.m in Sources */,
+				59702678208613AB004771DC /* HistoryTableViewController.m in Sources */,
 				DDF0FA08206F8C6E00EAAD08 /* EditViewController.m in Sources */,
 				DDC9024C206E258400A4CBE4 /* main.m in Sources */,
 				59B121812080EE220021EACA /* DiskDataExpert.m in Sources */,

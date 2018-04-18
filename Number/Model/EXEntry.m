@@ -6,6 +6,8 @@
 //  Copyright © 2018 vladislavitsi. All rights reserved.
 //
 
+#define DATA_PATTERN @"dd.MM.yyyy"
+
 #import "EXEntry.h"
 
 @interface EXEntry ()
@@ -19,7 +21,7 @@ static NSDateFormatter *_formatter;
 + (NSDateFormatter *)getFormatter {
     if(_formatter == nil) {
         _formatter = [[NSDateFormatter alloc] init];
-        [_formatter setDateFormat:@"dd-MM-yyyy"];
+        [_formatter setDateFormat:DATA_PATTERN];
     }
     return _formatter;
 }
@@ -56,6 +58,25 @@ static NSDateFormatter *_formatter;
     entry.progress = [jsonDataDictionary[@"progress"] integerValue];
     entry.goal = [jsonDataDictionary[@"goal"] integerValue];
     entry.step = [jsonDataDictionary[@"step"] integerValue];
+    return entry;
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+    return [self copy];
+}
+
+- (NSString *)getFormattedDate {
+    return [[EXEntry getFormatter] stringFromDate:self.date];
+}
+
+- (id)copy {
+    EXEntry * entry = [[EXEntry alloc] init];
+    entry.name = self.name;
+    entry.descr = self.descr;
+    entry.date = self.date;
+    entry.progress = self.progress;
+    entry.goal = self.goal;
+    entry.step = self.step;
     return entry;
 }
 

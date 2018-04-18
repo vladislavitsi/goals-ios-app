@@ -58,7 +58,6 @@
                     <constraint firstItem="FYH-EX-kKz" firstAttribute="centerY" secondItem="Kry-7l-20B" secondAttribute="centerY" id="1QC-3m-cAs"/>
                     <constraint firstItem="nOl-kh-Uhh" firstAttribute="leading" secondItem="ce4-yJ-5Pu" secondAttribute="trailing" constant="5" id="7Q4-DQ-gfw"/>
                     <constraint firstItem="sIg-3j-dTH" firstAttribute="centerY" secondItem="Kry-7l-20B" secondAttribute="centerY" id="Hgq-XE-gH4"/>
-                    <constraint firstItem="FYH-EX-kKz" firstAttribute="leading" secondItem="u2d-CQ-V4L" secondAttribute="trailing" constant="15" id="J5w-gE-Mvt"/>
                     <constraint firstItem="nOl-kh-Uhh" firstAttribute="centerY" secondItem="Kry-7l-20B" secondAttribute="centerY" id="PhV-Ey-n60"/>
                     <constraint firstItem="sIg-3j-dTH" firstAttribute="leading" secondItem="nOl-kh-Uhh" secondAttribute="trailing" constant="15" id="Tce-xv-C5F"/>
                     <constraint firstItem="ce4-yJ-5Pu" firstAttribute="leading" secondItem="FYH-EX-kKz" secondAttribute="trailing" constant="5" id="b48-zn-MTl"/>
@@ -68,11 +67,6 @@
                     <constraint firstItem="u2d-CQ-V4L" firstAttribute="leading" secondItem="Kry-7l-20B" secondAttribute="leadingMargin" constant="8" id="pgo-I3-67X"/>
                     <constraint firstItem="u2d-CQ-V4L" firstAttribute="centerY" secondItem="Kry-7l-20B" secondAttribute="centerY" id="zJc-7n-bx9"/>
                 </constraints>
-                <variation key="default">
-                    <mask key="constraints">
-                        <exclude reference="J5w-gE-Mvt"/>
-                    </mask>
-                </variation>
             </tableViewCellContentView>
             <connections>
                 <outlet property="goal" destination="nOl-kh-Uhh" id="g2M-05-NRw"/>

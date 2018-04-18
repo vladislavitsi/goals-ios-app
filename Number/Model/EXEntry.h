@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EXEntry : NSObject
+@interface EXEntry : NSObject <NSCopying>
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *descr;
@@ -16,6 +16,8 @@
 @property (nonatomic, assign) NSInteger progress;
 @property (nonatomic, assign) NSInteger goal;
 @property (nonatomic, assign) NSInteger step;
+
+- (NSString *)getFormattedDate;
 
 - (instancetype)initWithName:(NSString *)name descr:(NSString *)descr date:(NSDate *)date progress:(NSInteger)progress goal:(NSInteger)goal step:(NSInteger)step;
 

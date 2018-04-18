@@ -11,6 +11,7 @@
 
 #define DATA_FILE_NAME @"data.compressed"
 #define HISTORY_FILE_NAME @"history.compressed"
+
 @interface DiskDataExpert ()
 
 - (void)saveToDisk:(NSMutableArray<EXEntry *> *)entries fileName:(NSString *)fileName;
@@ -41,7 +42,7 @@
 - (void)saveToDisk:(NSMutableArray<EXEntry *> *)entries fileName:(NSString *)fileName {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSURL *documentsURL = [fileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask].firstObject;
-    NSURL *dataFileURL = [documentsURL URLByAppendingPathComponent:DATA_FILE_NAME];
+    NSURL *dataFileURL = [documentsURL URLByAppendingPathComponent:fileName];
     NSMutableArray *array = [NSMutableArray array];
     for (EXEntry *entry in entries) {
         [array addObject:[entry toJSONDictionary]];
